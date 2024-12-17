@@ -10,6 +10,7 @@ import {
   services,
 } from "../../content_option";
 
+
 export const About = () => {
   return (
     <HelmetProvider>
@@ -18,6 +19,10 @@ export const About = () => {
           <meta charSet="utf-8" />
           <title> About | {meta.title}</title>
           <meta name="description" content={meta.description} />
+          {/* <!-- Start of HubSpot Embed Code --> */}
+          <script type="text/javascript" id="hs-script-loader" async defer 
+                  src="//js.hs-scripts.com/48212720.js"></script>
+          {/* <!-- End of HubSpot Embed Code --> */}
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
