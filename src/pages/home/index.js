@@ -13,6 +13,10 @@ export const Home = () => {
           <meta charSet="utf-8" />
           <title> {meta.title}</title>
           <meta name="description" content={meta.description} />
+          {/* <!-- Start of HubSpot Embed Code --> */}
+          <script type="text/javascript" id="hs-script-loader" async defer 
+                  src="//js.hs-scripts.com/48212720.js"></script>
+          {/* <!-- End of HubSpot Embed Code --> */}
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
           <div
